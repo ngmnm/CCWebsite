@@ -9,6 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 INSTALLED_APPS = [
     'maintenance_mode',
     'account.apps.AccountConfig',
+    'home.apps.HomeConfig',
     'evaluation.apps.EvaluationConfig' ,
     'roommate.apps.RoommateConfig' ,
     'django.contrib.admin',
